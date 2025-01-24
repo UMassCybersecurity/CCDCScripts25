@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Commands to run
-commands=( "uname -a" "cat /etc/os-release" "ps axjf" "ss -tunlp" "cat /etc/passwd" "sudo cat /etc/shadow" "ss -aemTip" )
+commands=( "uname -a" "ip a" "cat /etc/os-release" "cat /etc/crontab" "cat /etc/passwd" "sudo cat /etc/shadow" "ss -tunlp" "ps axjf" "systemctl list-units" "ss -aemTip" )
 
 # Get output file from env var or set it to output.log
 OUTPUT_FILE=${OUTPUT_FILE:-output.log}
