@@ -1,0 +1,4445 @@
+{
+    "52.95.150.0": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.1": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-w.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.2": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "93",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "93"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            },
+            {
+                "name": "Denver Electronics AC-5000W MK2 camera",
+                "accuracy": "92",
+                "line": "24531",
+                "osclass": {
+                    "type": "webcam",
+                    "vendor": "Denver Electronics",
+                    "osfamily": "embedded",
+                    "accuracy": "92"
+                },
+                "cpe": "cpe:/h:denver_electronics:ac-5000w"
+            },
+            {
+                "name": "Cisco 1841 router (IOS 12)",
+                "accuracy": "88",
+                "line": "17168",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12"
+            },
+            {
+                "name": "Cisco 1841 router (IOS 12.4)",
+                "accuracy": "88",
+                "line": "17187",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12.4"
+            },
+            {
+                "name": "Cisco 836, 890, 1751, 1841, 2800, or 2900 router (IOS 12.4 - 15.1)",
+                "accuracy": "88",
+                "line": "17755",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "15.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:15"
+            },
+            {
+                "name": "Cisco 860 or 870 router (IOS 12.4)",
+                "accuracy": "88",
+                "line": "17782",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12.4"
+            },
+            {
+                "name": "Cisco 870 router or 2960 switch (IOS 12.2 - 12.4)",
+                "accuracy": "88",
+                "line": "17822",
+                "osclass": {
+                    "type": "switch",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12"
+            },
+            {
+                "name": "Cisco 877 router (IOS 12.4)",
+                "accuracy": "88",
+                "line": "17870",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12.4"
+            },
+            {
+                "name": "Cisco C860, C880, or 2821 router (IOS 12.4 - 15.0)",
+                "accuracy": "88",
+                "line": "17989",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "15.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:15.0"
+            },
+            {
+                "name": "Cisco Aironet 1141N (IOS 12.4) or 3602I (IOS 15.3) WAP",
+                "accuracy": "88",
+                "line": "19340",
+                "osclass": {
+                    "type": "WAP",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "15.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:15.3"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "444",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "snpp",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-r-w.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.3": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-website.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.4": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.5": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "93",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "93"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            },
+            {
+                "name": "Denver Electronics AC-5000W MK2 camera",
+                "accuracy": "92",
+                "line": "24531",
+                "osclass": {
+                    "type": "webcam",
+                    "vendor": "Denver Electronics",
+                    "osfamily": "embedded",
+                    "accuracy": "92"
+                },
+                "cpe": "cpe:/h:denver_electronics:ac-5000w"
+            },
+            {
+                "name": "Cisco 1841 router (IOS 12)",
+                "accuracy": "88",
+                "line": "17168",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12"
+            },
+            {
+                "name": "Cisco 1841 router (IOS 12.4)",
+                "accuracy": "88",
+                "line": "17187",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12.4"
+            },
+            {
+                "name": "Cisco 836, 890, 1751, 1841, 2800, or 2900 router (IOS 12.4 - 15.1)",
+                "accuracy": "88",
+                "line": "17755",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "15.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:15"
+            },
+            {
+                "name": "Cisco 860 or 870 router (IOS 12.4)",
+                "accuracy": "88",
+                "line": "17782",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12.4"
+            },
+            {
+                "name": "Cisco 870 router or 2960 switch (IOS 12.2 - 12.4)",
+                "accuracy": "88",
+                "line": "17822",
+                "osclass": {
+                    "type": "switch",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12"
+            },
+            {
+                "name": "Cisco 877 router (IOS 12.4)",
+                "accuracy": "88",
+                "line": "17870",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12.4"
+            },
+            {
+                "name": "Cisco C860, C880, or 2821 router (IOS 12.4 - 15.0)",
+                "accuracy": "88",
+                "line": "17989",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "15.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:15.0"
+            },
+            {
+                "name": "Cisco Aironet 1141N (IOS 12.4) or 3602I (IOS 15.3) WAP",
+                "accuracy": "88",
+                "line": "19340",
+                "osclass": {
+                    "type": "WAP",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "15.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:15.3"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-w.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.6": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "444",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "snpp",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-r-w.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.7": {
+        "osmatch": [],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-website.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.8": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.9": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-w.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.10": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "444",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "snpp",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-r-w.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.11": {
+        "osmatch": [],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-website.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.12": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "93",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "93"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            },
+            {
+                "name": "Denver Electronics AC-5000W MK2 camera",
+                "accuracy": "92",
+                "line": "24531",
+                "osclass": {
+                    "type": "webcam",
+                    "vendor": "Denver Electronics",
+                    "osfamily": "embedded",
+                    "accuracy": "92"
+                },
+                "cpe": "cpe:/h:denver_electronics:ac-5000w"
+            },
+            {
+                "name": "Cisco 1841 router (IOS 12.4)",
+                "accuracy": "88",
+                "line": "17187",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12.4"
+            },
+            {
+                "name": "Cisco 836, 890, 1751, 1841, 2800, or 2900 router (IOS 12.4 - 15.1)",
+                "accuracy": "88",
+                "line": "17755",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "15.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:15"
+            },
+            {
+                "name": "Cisco C860, C880, or 2821 router (IOS 12.4 - 15.0)",
+                "accuracy": "88",
+                "line": "17989",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "15.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:15.0"
+            },
+            {
+                "name": "Cisco 1921 router (IOS 15.1)",
+                "accuracy": "88",
+                "line": "19545",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "15.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:15.1"
+            },
+            {
+                "name": "Nintendo Wii game console",
+                "accuracy": "87",
+                "line": "95138",
+                "osclass": {
+                    "type": "game console",
+                    "vendor": "Nintendo",
+                    "osfamily": "embedded",
+                    "accuracy": "87"
+                },
+                "cpe": "cpe:/h:nintendo:wii"
+            },
+            {
+                "name": "Cisco 860 or 870 router (IOS 12.4)",
+                "accuracy": "87",
+                "line": "17782",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "87"
+                },
+                "cpe": "cpe:/o:cisco:ios:12.4"
+            },
+            {
+                "name": "Cisco 870 router or 2960 switch (IOS 12.2 - 12.4)",
+                "accuracy": "87",
+                "line": "17822",
+                "osclass": {
+                    "type": "switch",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "87"
+                },
+                "cpe": "cpe:/o:cisco:ios:12"
+            },
+            {
+                "name": "Cisco Aironet 1250 WAP (IOS 12.4) or IOS XE",
+                "accuracy": "87",
+                "line": "19452",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS XE",
+                    "accuracy": "87"
+                },
+                "cpe": "cpe:/o:cisco:ios_xe"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.13": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-w.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.14": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "444",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "snpp",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-r-w.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.15": {
+        "osmatch": [],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-website.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.16": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.17": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-w.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.18": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "444",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "snpp",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-r-w.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.19": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-website.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.20": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.21": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-w.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.22": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "444",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "snpp",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-r-w.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.23": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-website.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.24": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "93",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "93"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            },
+            {
+                "name": "Denver Electronics AC-5000W MK2 camera",
+                "accuracy": "92",
+                "line": "24531",
+                "osclass": {
+                    "type": "webcam",
+                    "vendor": "Denver Electronics",
+                    "osfamily": "embedded",
+                    "accuracy": "92"
+                },
+                "cpe": "cpe:/h:denver_electronics:ac-5000w"
+            },
+            {
+                "name": "Cisco 1841 router (IOS 12)",
+                "accuracy": "88",
+                "line": "17168",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12"
+            },
+            {
+                "name": "Cisco 1841 router (IOS 12.4)",
+                "accuracy": "88",
+                "line": "17187",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12.4"
+            },
+            {
+                "name": "Cisco 836, 890, 1751, 1841, 2800, or 2900 router (IOS 12.4 - 15.1)",
+                "accuracy": "88",
+                "line": "17755",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "15.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:15"
+            },
+            {
+                "name": "Cisco 860 or 870 router (IOS 12.4)",
+                "accuracy": "88",
+                "line": "17782",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12.4"
+            },
+            {
+                "name": "Cisco 870 router or 2960 switch (IOS 12.2 - 12.4)",
+                "accuracy": "88",
+                "line": "17822",
+                "osclass": {
+                    "type": "switch",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12"
+            },
+            {
+                "name": "Cisco 877 router (IOS 12.4)",
+                "accuracy": "88",
+                "line": "17870",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12.4"
+            },
+            {
+                "name": "Cisco C860, C880, or 2821 router (IOS 12.4 - 15.0)",
+                "accuracy": "88",
+                "line": "17989",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "15.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:15.0"
+            },
+            {
+                "name": "Cisco Aironet 1141N (IOS 12.4) or 3602I (IOS 15.3) WAP",
+                "accuracy": "88",
+                "line": "19340",
+                "osclass": {
+                    "type": "WAP",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "15.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:15.3"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.25": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-w.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.26": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "444",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "snpp",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-r-w.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.27": {
+        "osmatch": [],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-website.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.28": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.29": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-w.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.30": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "444",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "snpp",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-r-w.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.31": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-website.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.32": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.33": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-w.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.34": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "444",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "snpp",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-r-w.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.35": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-website.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.36": {
+        "osmatch": [],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.37": {
+        "osmatch": [],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-w.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.38": {
+        "osmatch": [],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "444",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "snpp",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-r-w.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.39": {
+        "osmatch": [],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-website.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.40": {
+        "osmatch": [],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.41": {
+        "osmatch": [],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-w.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.42": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "444",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "snpp",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-r-w.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.43": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-website.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.44": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.45": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-w.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.46": {
+        "osmatch": [],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "444",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "snpp",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-r-w.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.47": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "93",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "93"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            },
+            {
+                "name": "Denver Electronics AC-5000W MK2 camera",
+                "accuracy": "92",
+                "line": "24531",
+                "osclass": {
+                    "type": "webcam",
+                    "vendor": "Denver Electronics",
+                    "osfamily": "embedded",
+                    "accuracy": "92"
+                },
+                "cpe": "cpe:/h:denver_electronics:ac-5000w"
+            },
+            {
+                "name": "Cisco 1841 router (IOS 12)",
+                "accuracy": "88",
+                "line": "17168",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12"
+            },
+            {
+                "name": "Cisco 1841 router (IOS 12.4)",
+                "accuracy": "88",
+                "line": "17187",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12.4"
+            },
+            {
+                "name": "Cisco 836, 890, 1751, 1841, 2800, or 2900 router (IOS 12.4 - 15.1)",
+                "accuracy": "88",
+                "line": "17755",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "15.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:15"
+            },
+            {
+                "name": "Cisco 860 or 870 router (IOS 12.4)",
+                "accuracy": "88",
+                "line": "17782",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12.4"
+            },
+            {
+                "name": "Cisco 870 router or 2960 switch (IOS 12.2 - 12.4)",
+                "accuracy": "88",
+                "line": "17822",
+                "osclass": {
+                    "type": "switch",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12"
+            },
+            {
+                "name": "Cisco 877 router (IOS 12.4)",
+                "accuracy": "88",
+                "line": "17870",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12.4"
+            },
+            {
+                "name": "Cisco C860, C880, or 2821 router (IOS 12.4 - 15.0)",
+                "accuracy": "88",
+                "line": "17989",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "15.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:15.0"
+            },
+            {
+                "name": "Cisco Aironet 1141N (IOS 12.4) or 3602I (IOS 15.3) WAP",
+                "accuracy": "88",
+                "line": "19340",
+                "osclass": {
+                    "type": "WAP",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "15.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:15.3"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-website.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.48": {
+        "osmatch": [],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.49": {
+        "osmatch": [],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-w.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.50": {
+        "osmatch": [],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "444",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "snpp",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-r-w.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.51": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-website.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.52": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "93",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "93"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            },
+            {
+                "name": "Denver Electronics AC-5000W MK2 camera",
+                "accuracy": "92",
+                "line": "24531",
+                "osclass": {
+                    "type": "webcam",
+                    "vendor": "Denver Electronics",
+                    "osfamily": "embedded",
+                    "accuracy": "92"
+                },
+                "cpe": "cpe:/h:denver_electronics:ac-5000w"
+            },
+            {
+                "name": "Cisco 1841 router (IOS 12)",
+                "accuracy": "88",
+                "line": "17168",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12"
+            },
+            {
+                "name": "Cisco 1841 router (IOS 12.4)",
+                "accuracy": "88",
+                "line": "17187",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12.4"
+            },
+            {
+                "name": "Cisco 836, 890, 1751, 1841, 2800, or 2900 router (IOS 12.4 - 15.1)",
+                "accuracy": "88",
+                "line": "17755",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "15.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:15"
+            },
+            {
+                "name": "Cisco 860 or 870 router (IOS 12.4)",
+                "accuracy": "88",
+                "line": "17782",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12.4"
+            },
+            {
+                "name": "Cisco 870 router or 2960 switch (IOS 12.2 - 12.4)",
+                "accuracy": "88",
+                "line": "17822",
+                "osclass": {
+                    "type": "switch",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12"
+            },
+            {
+                "name": "Cisco 877 router (IOS 12.4)",
+                "accuracy": "88",
+                "line": "17870",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12.4"
+            },
+            {
+                "name": "Cisco C860, C880, or 2821 router (IOS 12.4 - 15.0)",
+                "accuracy": "88",
+                "line": "17989",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "15.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:15.0"
+            },
+            {
+                "name": "Cisco Aironet 1141N (IOS 12.4) or 3602I (IOS 15.3) WAP",
+                "accuracy": "88",
+                "line": "19340",
+                "osclass": {
+                    "type": "WAP",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "15.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:15.3"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.53": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "93",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "93"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            },
+            {
+                "name": "Denver Electronics AC-5000W MK2 camera",
+                "accuracy": "92",
+                "line": "24531",
+                "osclass": {
+                    "type": "webcam",
+                    "vendor": "Denver Electronics",
+                    "osfamily": "embedded",
+                    "accuracy": "92"
+                },
+                "cpe": "cpe:/h:denver_electronics:ac-5000w"
+            },
+            {
+                "name": "Cisco 1841 router (IOS 12.4)",
+                "accuracy": "88",
+                "line": "17187",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12.4"
+            },
+            {
+                "name": "Cisco 836, 890, 1751, 1841, 2800, or 2900 router (IOS 12.4 - 15.1)",
+                "accuracy": "88",
+                "line": "17755",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "15.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:15"
+            },
+            {
+                "name": "Cisco 860 or 870 router (IOS 12.4)",
+                "accuracy": "88",
+                "line": "17782",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12.4"
+            },
+            {
+                "name": "Cisco C860, C880, or 2821 router (IOS 12.4 - 15.0)",
+                "accuracy": "88",
+                "line": "17989",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "15.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:15.0"
+            },
+            {
+                "name": "Cisco Aironet 1250 WAP (IOS 12.4) or IOS XE",
+                "accuracy": "88",
+                "line": "19452",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS XE",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios_xe"
+            },
+            {
+                "name": "Cisco 1921 router (IOS 15.1)",
+                "accuracy": "88",
+                "line": "19545",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "15.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:15.1"
+            },
+            {
+                "name": "Cisco IOS 12.4 or IOS-XE 15.0 - 16.12",
+                "accuracy": "87",
+                "line": "18056",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS-XE",
+                    "osgen": "16.X",
+                    "accuracy": "87"
+                },
+                "cpe": "cpe:/o:cisco:ios_xe:16"
+            },
+            {
+                "name": "Cisco C860 router (IOS 15.2)",
+                "accuracy": "87",
+                "line": "19657",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "15.X",
+                    "accuracy": "87"
+                },
+                "cpe": "cpe:/o:cisco:ios:15.2"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-w.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.54": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "93",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "93"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            },
+            {
+                "name": "Denver Electronics AC-5000W MK2 camera",
+                "accuracy": "92",
+                "line": "24531",
+                "osclass": {
+                    "type": "webcam",
+                    "vendor": "Denver Electronics",
+                    "osfamily": "embedded",
+                    "accuracy": "92"
+                },
+                "cpe": "cpe:/h:denver_electronics:ac-5000w"
+            },
+            {
+                "name": "Cisco 1841 router (IOS 12)",
+                "accuracy": "88",
+                "line": "17168",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12"
+            },
+            {
+                "name": "Cisco 1841 router (IOS 12.4)",
+                "accuracy": "88",
+                "line": "17187",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12.4"
+            },
+            {
+                "name": "Cisco 836, 890, 1751, 1841, 2800, or 2900 router (IOS 12.4 - 15.1)",
+                "accuracy": "88",
+                "line": "17755",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "15.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:15"
+            },
+            {
+                "name": "Cisco 860 or 870 router (IOS 12.4)",
+                "accuracy": "88",
+                "line": "17782",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12.4"
+            },
+            {
+                "name": "Cisco 870 router or 2960 switch (IOS 12.2 - 12.4)",
+                "accuracy": "88",
+                "line": "17822",
+                "osclass": {
+                    "type": "switch",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12"
+            },
+            {
+                "name": "Cisco 877 router (IOS 12.4)",
+                "accuracy": "88",
+                "line": "17870",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12.4"
+            },
+            {
+                "name": "Cisco C860, C880, or 2821 router (IOS 12.4 - 15.0)",
+                "accuracy": "88",
+                "line": "17989",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "15.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:15.0"
+            },
+            {
+                "name": "Cisco Aironet 1141N (IOS 12.4) or 3602I (IOS 15.3) WAP",
+                "accuracy": "88",
+                "line": "19340",
+                "osclass": {
+                    "type": "WAP",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "15.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:15.3"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "444",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "snpp",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-r-w.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.55": {
+        "osmatch": [],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-website.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.56": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.57": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-w.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.58": {
+        "osmatch": [],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "444",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "snpp",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-r-w.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.59": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "93",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "93"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            },
+            {
+                "name": "Nintendo Wii game console",
+                "accuracy": "88",
+                "line": "95138",
+                "osclass": {
+                    "type": "game console",
+                    "vendor": "Nintendo",
+                    "osfamily": "embedded",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/h:nintendo:wii"
+            },
+            {
+                "name": "Denver Electronics AC-5000W MK2 camera",
+                "accuracy": "87",
+                "line": "24531",
+                "osclass": {
+                    "type": "webcam",
+                    "vendor": "Denver Electronics",
+                    "osfamily": "embedded",
+                    "accuracy": "87"
+                },
+                "cpe": "cpe:/h:denver_electronics:ac-5000w"
+            },
+            {
+                "name": "Epson Stylus Pro 400 printer",
+                "accuracy": "86",
+                "line": "26242",
+                "osclass": {
+                    "type": "printer",
+                    "vendor": "Epson",
+                    "osfamily": "embedded",
+                    "accuracy": "86"
+                },
+                "cpe": "cpe:/h:epson:stylus_pro_400"
+            },
+            {
+                "name": "AVtech Room Alert 26W environmental monitor",
+                "accuracy": "85",
+                "line": "10459",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "AVtech",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                }
+            },
+            {
+                "name": "HP iLO 5 remote management interface",
+                "accuracy": "85",
+                "line": "39663",
+                "osclass": {
+                    "type": "remote management",
+                    "vendor": "HP",
+                    "osfamily": "iLO",
+                    "osgen": "5.X",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/o:hp:ilo:5"
+            },
+            {
+                "name": "SMC SMC8014WG WAP",
+                "accuracy": "85",
+                "line": "105049",
+                "osclass": {
+                    "type": "broadband router",
+                    "vendor": "SMC",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:smc:smc8014wg"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-website.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.60": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.61": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "93",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "93"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            },
+            {
+                "name": "Denver Electronics AC-5000W MK2 camera",
+                "accuracy": "92",
+                "line": "24531",
+                "osclass": {
+                    "type": "webcam",
+                    "vendor": "Denver Electronics",
+                    "osfamily": "embedded",
+                    "accuracy": "92"
+                },
+                "cpe": "cpe:/h:denver_electronics:ac-5000w"
+            },
+            {
+                "name": "Cisco 1841 router (IOS 12)",
+                "accuracy": "88",
+                "line": "17168",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12"
+            },
+            {
+                "name": "Cisco 1841 router (IOS 12.4)",
+                "accuracy": "88",
+                "line": "17187",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12.4"
+            },
+            {
+                "name": "Cisco 836, 890, 1751, 1841, 2800, or 2900 router (IOS 12.4 - 15.1)",
+                "accuracy": "88",
+                "line": "17755",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "15.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:15"
+            },
+            {
+                "name": "Cisco 860 or 870 router (IOS 12.4)",
+                "accuracy": "88",
+                "line": "17782",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12.4"
+            },
+            {
+                "name": "Cisco 870 router or 2960 switch (IOS 12.2 - 12.4)",
+                "accuracy": "88",
+                "line": "17822",
+                "osclass": {
+                    "type": "switch",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12"
+            },
+            {
+                "name": "Cisco 877 router (IOS 12.4)",
+                "accuracy": "88",
+                "line": "17870",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12.4"
+            },
+            {
+                "name": "Cisco C860, C880, or 2821 router (IOS 12.4 - 15.0)",
+                "accuracy": "88",
+                "line": "17989",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "15.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:15.0"
+            },
+            {
+                "name": "Cisco Aironet 1141N (IOS 12.4) or 3602I (IOS 15.3) WAP",
+                "accuracy": "88",
+                "line": "19340",
+                "osclass": {
+                    "type": "WAP",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "15.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:15.3"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-w.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.62": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "93",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "93"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            },
+            {
+                "name": "Denver Electronics AC-5000W MK2 camera",
+                "accuracy": "92",
+                "line": "24531",
+                "osclass": {
+                    "type": "webcam",
+                    "vendor": "Denver Electronics",
+                    "osfamily": "embedded",
+                    "accuracy": "92"
+                },
+                "cpe": "cpe:/h:denver_electronics:ac-5000w"
+            },
+            {
+                "name": "Cisco 1841 router (IOS 12.4)",
+                "accuracy": "88",
+                "line": "17187",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12.4"
+            },
+            {
+                "name": "Cisco 836, 890, 1751, 1841, 2800, or 2900 router (IOS 12.4 - 15.1)",
+                "accuracy": "88",
+                "line": "17755",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "15.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:15"
+            },
+            {
+                "name": "Cisco 860 or 870 router (IOS 12.4)",
+                "accuracy": "88",
+                "line": "17782",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12.4"
+            },
+            {
+                "name": "Cisco 870 router or 2960 switch (IOS 12.2 - 12.4)",
+                "accuracy": "88",
+                "line": "17822",
+                "osclass": {
+                    "type": "switch",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12"
+            },
+            {
+                "name": "Cisco 877 router (IOS 12.4)",
+                "accuracy": "88",
+                "line": "17870",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "12.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:12.4"
+            },
+            {
+                "name": "Cisco C860, C880, or 2821 router (IOS 12.4 - 15.0)",
+                "accuracy": "88",
+                "line": "17989",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "15.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:15.0"
+            },
+            {
+                "name": "Cisco Aironet 1141N (IOS 12.4) or 3602I (IOS 15.3) WAP",
+                "accuracy": "88",
+                "line": "19340",
+                "osclass": {
+                    "type": "WAP",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS",
+                    "osgen": "15.X",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios:15.3"
+            },
+            {
+                "name": "Cisco Aironet 1250 WAP (IOS 12.4) or IOS XE",
+                "accuracy": "88",
+                "line": "19452",
+                "osclass": {
+                    "type": "router",
+                    "vendor": "Cisco",
+                    "osfamily": "IOS XE",
+                    "accuracy": "88"
+                },
+                "cpe": "cpe:/o:cisco:ios_xe"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "443",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "https",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "444",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "snpp",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-r-w.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "52.95.150.63": {
+        "osmatch": [
+            {
+                "name": "OSRAM Lightify ZigBee gateway",
+                "accuracy": "85",
+                "line": "98801",
+                "osclass": {
+                    "type": "specialized",
+                    "vendor": "OSRAM",
+                    "osfamily": "embedded",
+                    "accuracy": "85"
+                },
+                "cpe": "cpe:/h:osram:lightify"
+            }
+        ],
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "80",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "234",
+                "service": {
+                    "name": "http",
+                    "method": "table",
+                    "conf": "3"
+                },
+                "cpe": [],
+                "scripts": []
+            }
+        ],
+        "hostname": [
+            {
+                "name": "s3-website.eu-west-2.amazonaws.com",
+                "type": "PTR"
+            }
+        ],
+        "macaddress": null
+    },
+    "runtime": {
+        "time": "1736882660",
+        "timestr": "Tue Jan 14 14:24:20 2025",
+        "summary": "Nmap done at Tue Jan 14 14:24:20 2025; 64 IP addresses (64 hosts up) scanned in 276.56 seconds",
+        "elapsed": "276.56",
+        "exit": "success"
+    },
+    "stats": {
+        "scanner": "nmap",
+        "args": "/usr/bin/nmap -v -oX - -O 52.95.150.0/26",
+        "start": "1736882383",
+        "startstr": "Tue Jan 14 14:19:43 2025",
+        "version": "7.95",
+        "xmloutputversion": "1.05"
+    },
+    "task_results": [
+        {
+            "task": "Ping Scan",
+            "time": "1736882383",
+            "extrainfo": "64 total hosts"
+        },
+        {
+            "task": "Parallel DNS resolution of 64 hosts.",
+            "time": "1736882384"
+        },
+        {
+            "task": "SYN Stealth Scan",
+            "time": "1736882649",
+            "extrainfo": "64000 total ports"
+        }
+    ]
+}
