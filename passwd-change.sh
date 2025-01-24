@@ -6,6 +6,23 @@ if [[ $EUID -ne 0 ]]; then
   exit 1
 fi
 
+read -p "Would you like to import an ignore list(y/N)? " -r
+if [[ $REPLY =~ ^([Yy]|yes)$ ]]
+then
+    read -p "Enter file to import: " -r
+    if [[ ! -f $REPLY ]]
+    then
+        echo $REPLY: No such file 1>&2
+        exit 1
+    fi
+
+    readarray -t IGNORE_LIST < $REPLY
+fi
+
+echo "Users to ignore:"
+printf "%s\n" "${IGNORE_LIST[@]}"
+echo
+
 # Get users with valid shell (not nologin or false)
 users=($(cat /etc/passwd | grep -v -e "/nologin$" -e "/false$" | cut -d: -f1))
 users_len=${#users[@]} 
