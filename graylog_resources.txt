@@ -1,0 +1,13 @@
+https://github.com/tmacgbay/Graylog-AD-beats/tree/master
+	Windows sidecar installation + AD monitoring rules.
+	Compatibile with Graylog 3.0.1 and Ubuntu 19.04
+
+https://gist.github.com/lucashalbert/c5c8a3a0ca26db0b85a70b025886c564
+	Powershell script to install Windows sidecar. Very configurable.
+
+https://github.com/wand3rlust/Graylog-Install-Scripts
+	Graylog installation. Including this because it works with Ubuntu 22.04 (Opensearch installation can fail on that version because of a broken dpkg dependency)
+
+https://github.com/idlethreat/graylog-build
+	Graylog server configuration script. Intended for 2 servers.
+	(I don't expect us to use this one, since Graylog is installed on at least one of the CCDC machines already)
