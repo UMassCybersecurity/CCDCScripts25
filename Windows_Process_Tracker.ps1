@@ -1,5 +1,3 @@
-I'm not sure how to add the script to the github, so I'll just put it here.
-```
 $processes = Get-WmiObject Win32_Process
 Write-Output "Process listing started. Give it about 45 seconds."
 
@@ -57,4 +55,3 @@ $processDetails | Format-Table -Property `
     -AutoSize
 
 Write-Output ""
-```
