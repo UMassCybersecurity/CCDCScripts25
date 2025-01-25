@@ -73,7 +73,7 @@ then
 fi
 
 for user in ${users[@]}; do
-    password=$(tr -dc 'A-Za-z0-9!?%=' < /dev/urandom | head -c 10)
+    password=$(tr -dc 'A-Za-z0-9!?%=' < /dev/urandom | head -c 16)
     echo -e "$password\n$password" | passwd $user 1>/dev/null
     if (($? == 0)); then
         echo "New password for $user: $password"

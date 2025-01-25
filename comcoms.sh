@@ -20,7 +20,6 @@ if [ -f $OUTPUT_FILE ]; then
 
     if [[ $REPLY =~ ^([Yy]|yes)$ ]]
     then
-    echo test
         > $OUTPUT_FILE
     fi
 fi
