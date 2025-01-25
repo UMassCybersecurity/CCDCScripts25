@@ -23,8 +23,9 @@ echo "Users to ignore:"
 printf "%s\n" "${IGNORE_LIST[@]}"
 echo
 
-# Get users with valid shell (not nologin or false)
-users=($(cat /etc/passwd | grep -v -e "/nologin$" -e "/false$" | cut -d: -f1))
+# Get users with valid shell (not nologin or false) and not on ignore list
+ignore_str=$(printf " -e ^%s" "${IGNORE_LIST[@]}")
+users=($(cat /etc/passwd | grep -v -e "/nologin$" -e "/false$"$ignore_str | cut -d: -f1))
 users_len=${#users[@]} 
 
 num_re='^[0-9]+$'
