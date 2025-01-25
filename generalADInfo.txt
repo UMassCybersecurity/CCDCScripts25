@@ -1,0 +1,46 @@
+# Define log file paths
+$LogDir = "$($PSScriptRoot)\Logs"
+$LogFile = "$LogDir\GeneralInfo.txt"
+
+# Create log directory if it doesn't exist
+if (!(Test-Path -Path $LogDir)) {
+    New-Item -ItemType Directory -Path $LogDir | Out-Null
+}
+
+# Create log file if it doesn't exist
+if (!(Test-Path -Path $LogFile)) {
+    New-Item -ItemType File -Path $LogFile | Out-Null
+}
+
+
+# DC detection
+$DC = $false
+if (Get-CimInstance -Class Win32_OperatingSystem -Filter 'ProductType = "2"') {
+    $DC = $true
+}
+"Is this a Domain Controller? $DC" | Out-File -Append $LogFile
+Write-Host "Is this a Domain Controller? $DC"
+
+# Get all AD users
+$users = Get-ADUser -Filter * -Properties *
+
+# Output user details to log file
+$users | Select-Object Name, SamAccountName, UserPrincipalName, Enabled | Out-File -Append $LogFile
+
+# Get all AD groups
+$groups = Get-ADGroup -Filter * | Select-Object SamAccountName
+
+# Output group details to log file
+$groups | ForEach-Object { "$($_.SamAccountName)" } | Out-File -Append $LogFile
+
+# Get Organizational Units (OUs)
+$OUs = Get-ADOrganizationalUnit -Filter * | Select-Object Name
+
+# Output OU details to log file
+$OUs | ForEach-Object { "$($_.Name)" } | Out-File -Append $LogFile
+
+# Get server version
+$Version = (Get-WmiObject Win32_OperatingSystem).Caption
+
+# Output server version to log file
+"Server Version: $Version" | Out-File -Append $LogFile
