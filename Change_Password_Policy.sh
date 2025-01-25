@@ -1,8 +1,6 @@
-```
 #!/bin/bash
 
-# Install libpam_cracklib
-sudo apt-get install libpam-cracklib
+# NOTE: Installs libpam_cracklib
 
 # Path 
 PWFILE="/etc/security/pwquality.conf"
@@ -46,7 +44,7 @@ else
     if [ -x "$(command -v yum)" ]; then
         yum install -y pam
     elif [ -x "$(command -v apt)" ]; then
-        apt update && sudo apt install -y libpam-pwquality
+        apt update && apt install -y libpam-pwquality
     fi
 
     new_line="password required pam_pwquality.so "
@@ -64,14 +62,13 @@ fi
 
 # Edit in system-auth, password-auth 
 if [ -f $SYSAUTH ]; then
-    sudo sed -i "/auth        required      pam_env.so/a auth        required      pam_tally2.so deny=$deny unlock_time=$unlock" /etc/pam.d/system-auth
-    sudo sed -i "/account     required      pam_unix.so/a account     required      pam_tally2.so" /etc/pam.d/system-auth
-    sudo sed -i "s/^password.*pam_unix.so/& remember=$pwhist/" /etc/pam.d/system-auth
+    sed -i "/auth        required      pam_env.so/a auth        required      pam_tally2.so deny=$deny unlock_time=$unlock" /etc/pam.d/system-auth
+    sed -i "/account     required      pam_unix.so/a account     required      pam_tally2.so" /etc/pam.d/system-auth
+    sed -i "s/^password.*pam_unix.so/& remember=$pwhist/" /etc/pam.d/system-auth
 fi
 
 if [ -f $PWAUTH ]; then
-    sudo sed -i "/auth        required      pam_env.so/a auth        required      pam_tally2.so deny=$deny unlock_time=$unlock" /etc/pam.d/password-auth
-    sudo sed -i "/account     required      pam_unix.so/a account     required      pam_tally2.so" /etc/pam.d/password-auth
-    sudo sed -i "s/^password.*pam_unix.so/& remember=$pwhist/" /etc/pam.d/password-auth
+    sed -i "/auth        required      pam_env.so/a auth        required      pam_tally2.so deny=$deny unlock_time=$unlock" /etc/pam.d/password-auth
+    sed -i "/account     required      pam_unix.so/a account     required      pam_tally2.so" /etc/pam.d/password-auth
+    sed -i "s/^password.*pam_unix.so/& remember=$pwhist/" /etc/pam.d/password-auth
 fi
-```
